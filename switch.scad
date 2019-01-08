@@ -1,5 +1,6 @@
 echo(version=version());
 baseWidth = 17.5;
+footWidth = baseWidth +2*2;
 vertexWidth = 14;
 notchWidth = 7;
 
@@ -17,8 +18,8 @@ armPoints = [
 ];
 
 footPoints = [
-    [0, 0], [baseWidth/2, 0],
-    [baseWidth/2, footHeight], [0, footHeight]
+    [0, 0], [footWidth/2, 0],
+    [footWidth/2-1, footHeight], [0, footHeight]
 ];
 
 
