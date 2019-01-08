@@ -1,4 +1,3 @@
-echo(version=version());
 baseWidth = 17.5;
 footWidth = baseWidth +2*2;
 vertexWidth = 14;
@@ -12,14 +11,14 @@ footHeight = 2;
 footDepth = 6.8;
 
 armPoints = [
-    [0,0], [baseWidth/2, 0],
-    [vertexWidth/2, armHeight], [notchWidth/2, armHeight],
-    [notchWidth/2, bridgeHeight], [0, bridgeHeight]
+  [0,0], [baseWidth/2, 0],
+  [vertexWidth/2, armHeight], [notchWidth/2, armHeight],
+  [notchWidth/2, bridgeHeight], [0, bridgeHeight]
 ];
 
 footPoints = [
-    [0, 0], [footWidth/2, 0],
-    [footWidth/2-1, footHeight], [0, footHeight]
+  [0, 0], [footWidth/2, 0],
+  [footWidth/2-1, footHeight], [0, footHeight]
 ];
 
 
@@ -33,4 +32,4 @@ union() {
    polygon(points=footPoints);
    mirror() polygon(points=footPoints);
   }
- }
+}
