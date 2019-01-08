@@ -3,6 +3,6 @@
 replacement part for the electric switch
 
 
-![][photo.png]
+![](photo.jpg)
 
-![][switch.png]
+![](switch.png)
